@@ -1,0 +1,7 @@
+{
+  "name": "audio_chunks",
+  "version": "1",
+  "description": "采样率切换、缺序号音频块和 hop 约定。",
+  "input_file": "data/input.json",
+  "implementation": "由项目使用者根据业务契约提供"
+}
