@@ -1,0 +1,41 @@
+"""模块路径别名：``operator_audio_chunks.model``（数据契约）。"""
+
+from .types import (  # noqa: F401
+    ApiObject,
+    AudioChunk,
+    ChunkNotice,
+    ConflictPolicy,
+    Frame,
+    FrameStatus,
+    GapPolicy,
+    NoticeKind,
+    OperatorConfig,
+    Quality,
+    RecoveryPlan,
+    Retraction,
+    SourceRange,
+    SourceSpan,
+    coerce_quality,
+    jsonable,
+    merge_source_ranges,
+)
+
+__all__ = [
+    "ApiObject",
+    "AudioChunk",
+    "ChunkNotice",
+    "ConflictPolicy",
+    "Frame",
+    "FrameStatus",
+    "GapPolicy",
+    "NoticeKind",
+    "OperatorConfig",
+    "Quality",
+    "RecoveryPlan",
+    "Retraction",
+    "SourceRange",
+    "SourceSpan",
+    "coerce_quality",
+    "jsonable",
+    "merge_source_ranges",
+]
